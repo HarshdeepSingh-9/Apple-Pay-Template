@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Html Template Designs</title>
+    <link rel="stylesheet" href="style-p2.css" type="text/css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="my-btn">
+        <label class="switch" onclick="switchToggle()">
+            <input type="checkbox" id="toggleSwitch">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div class="payment-container">
+        <div class="card-shuffle-container">
+            <label class="card-option" style="left: 0;">
+                <img src="https://mma.prnewswire.com/media/1654705/American_Express_Canada_American_Express_revamps_the_Business_Go.jpg?p=facebook"
+                    alt="Card 1" class="c1" id="card_1" onclick="show_card('card_1')">
+            </label>
+            <label class="card-option" style="left: 20px;">
+                <img src="https://www.forbes.com/advisor/wp-content/uploads/2019/01/the-platinum-card-from-american-express-060117-1.png"
+                    alt="Card 2" id="card_2" class="c2" onclick="show_card('card_2')">
+            </label>
+            <label class="card-option" style="left: 40px;">
+                <img src="https://www.nerdwallet.com/cdn-cgi/image/width=1800,quality=85/cdn/images/marketplace/credit_cards/775f116b-c01e-48bb-9643-a646527815af/a97f224d938548a7be579e67788c0023ea3826530fe48507991bfb53d8e1c692.jpg"
+                    alt="Card 3" id="card_3" class="c3" onclick="show_card('card_3')">
+            </label>
+        </div>
+        <button id="display-cards-button" onclick="displayCards()">Display Cards</button>
+        <button id="hide-cards-button" onclick="hideCards()">Hide Cards</button>
+            <div id=" payment-status">
+    </div>
+    </div>
+</body>
+
+
+
+</html>
